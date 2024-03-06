@@ -37,7 +37,7 @@ struct Notenkasten: View {
                     .padding(.trailing, 20)
                 
             }
-        }.frame(width: 330)
+        }
     }
 }
 

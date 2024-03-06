@@ -12,10 +12,16 @@
 		5C2020152B90CF06001E72B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2020142B90CF06001E72B6 /* ContentView.swift */; };
 		5C2020172B90CF07001E72B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2020162B90CF07001E72B6 /* Assets.xcassets */; };
 		5C20201A2B90CF07001E72B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2020192B90CF07001E72B6 /* Preview Assets.xcassets */; };
+		5C4E1E2B2B9B502D00BBF09B /* addfileview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E1E2A2B9B502D00BBF09B /* addfileview.swift */; };
 		5CC396CD2B93517C00A1CBA4 /* Fachkachel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC396CC2B93517C00A1CBA4 /* Fachkachel.swift */; };
 		5CC396D32B960AC100A1CBA4 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC396D22B960AC100A1CBA4 /* Wrapper.swift */; };
 		5CC396D52B960B6A00A1CBA4 /* FachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC396D42B960B6A00A1CBA4 /* FachView.swift */; };
+		5CE299BC2BADD4DA0052F1B2 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE299BB2BADD4DA0052F1B2 /* notes.rtf */; };
 		643C0C212B935F7E00FCAE93 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C0C202B935F7E00FCAE93 /* File.swift */; };
+		64B93B712BA60FAF00569949 /* startsreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B93B702BA60FAF00569949 /* startsreen.swift */; };
+		64B93B732BA6118200569949 /* schuljahr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B93B722BA6118200569949 /* schuljahr.swift */; };
+		64B93B7B2BA86DC800569949 /* addschuljarviwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B93B7A2BA86DC800569949 /* addschuljarviwe.swift */; };
+		64B93B7D2BA89ECA00569949 /* addnoteview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B93B7C2BA89ECA00569949 /* addnoteview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +31,16 @@
 		5C2020142B90CF06001E72B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C2020162B90CF07001E72B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C2020192B90CF07001E72B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C4E1E2A2B9B502D00BBF09B /* addfileview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addfileview.swift; sourceTree = "<group>"; };
 		5CC396CC2B93517C00A1CBA4 /* Fachkachel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fachkachel.swift; sourceTree = "<group>"; };
 		5CC396D22B960AC100A1CBA4 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
 		5CC396D42B960B6A00A1CBA4 /* FachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachView.swift; sourceTree = "<group>"; };
+		5CE299BB2BADD4DA0052F1B2 /* notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = notes.rtf; sourceTree = "<group>"; };
 		643C0C202B935F7E00FCAE93 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		64B93B702BA60FAF00569949 /* startsreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startsreen.swift; sourceTree = "<group>"; };
+		64B93B722BA6118200569949 /* schuljahr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schuljahr.swift; sourceTree = "<group>"; };
+		64B93B7A2BA86DC800569949 /* addschuljarviwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addschuljarviwe.swift; sourceTree = "<group>"; };
+		64B93B7C2BA89ECA00569949 /* addnoteview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addnoteview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 		5C2020062B90CF06001E72B6 = {
 			isa = PBXGroup;
 			children = (
+				5CE299BB2BADD4DA0052F1B2 /* notes.rtf */,
 				5C2020112B90CF06001E72B6 /* Grades_v4 */,
 				5C2020102B90CF06001E72B6 /* Products */,
 			);
@@ -68,8 +81,13 @@
 				5CC396CC2B93517C00A1CBA4 /* Fachkachel.swift */,
 				643C0C202B935F7E00FCAE93 /* File.swift */,
 				5CC396D22B960AC100A1CBA4 /* Wrapper.swift */,
-				5CC396D42B960B6A00A1CBA4 /* FachView.swift */,
 				5C0B04C62B98EE20007D887C /* Notenkasten.swift */,
+				5CC396D42B960B6A00A1CBA4 /* FachView.swift */,
+				5C4E1E2A2B9B502D00BBF09B /* addfileview.swift */,
+				64B93B702BA60FAF00569949 /* startsreen.swift */,
+				64B93B722BA6118200569949 /* schuljahr.swift */,
+				64B93B7A2BA86DC800569949 /* addschuljarviwe.swift */,
+				64B93B7C2BA89ECA00569949 /* addnoteview.swift */,
 			);
 			path = Grades_v4;
 			sourceTree = "<group>";
@@ -140,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE299BC2BADD4DA0052F1B2 /* notes.rtf in Resources */,
 				5C20201A2B90CF07001E72B6 /* Preview Assets.xcassets in Resources */,
 				5C2020172B90CF07001E72B6 /* Assets.xcassets in Resources */,
 			);
@@ -152,10 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4E1E2B2B9B502D00BBF09B /* addfileview.swift in Sources */,
+				64B93B712BA60FAF00569949 /* startsreen.swift in Sources */,
+				64B93B7D2BA89ECA00569949 /* addnoteview.swift in Sources */,
 				5CC396CD2B93517C00A1CBA4 /* Fachkachel.swift in Sources */,
 				5CC396D32B960AC100A1CBA4 /* Wrapper.swift in Sources */,
 				643C0C212B935F7E00FCAE93 /* File.swift in Sources */,
 				5C2020152B90CF06001E72B6 /* ContentView.swift in Sources */,
+				64B93B7B2BA86DC800569949 /* addschuljarviwe.swift in Sources */,
+				64B93B732BA6118200569949 /* schuljahr.swift in Sources */,
 				5CC396D52B960B6A00A1CBA4 /* FachView.swift in Sources */,
 				5C0B04C72B98EE20007D887C /* Notenkasten.swift in Sources */,
 				5C2020132B90CF06001E72B6 /* Grades_v4App.swift in Sources */,
@@ -295,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
